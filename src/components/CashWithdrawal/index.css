@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Roboto;
+}
+
+.card {
+  background-color: #150b3e;
+  height: 55vh;
+  width: 40vw;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.heading {
+  background-color: #c7d2fe;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+}
+.head {
+  color: #7c3aed;
+  font-size: 20px;
+}
+
+.name {
+  color: #d4d2db;
+  font-size: 25px;
+  padding-left: 25px;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.balance {
+  color: #585076;
+  font-size: 25px;
+}
+
+.amt {
+  color: #d4d2db;
+  font-size: 25px;
+}
+
+.rup {
+  color: #585076;
+}
+
+.with {
+  color: #d4d2db;
+  font-size: 25px;
+}
+
+.chs {
+  color: #585076;
+  font-size: 20px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
